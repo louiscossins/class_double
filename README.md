@@ -2,7 +2,7 @@
 
 Based on **CLASS v2.9.3**.
 
-This repository contains the CLASS code for an uncoupled quintessence model with a double-exponential potential:
+This repository contains the modified CLASS code for an uncoupled quintessence model with a double-exponential potential:
 
 $$V(\phi) = V_1 \left(e^{-\kappa\lambda_1\phi} + A e^{-\kappa\lambda_2\phi}\right)$$
 
