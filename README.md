@@ -90,3 +90,15 @@ Build CLASS from the repository root:
 ```bash
 make clean
 make -j
+```
+## Running the Code
+
+Run a test simulation using the provided parameter file:
+
+```bash
+./class Double_parameters.ini
+```
+### References:
+* Pourtsidou, A., Skordis, C., & Copeland, E. J. (2013) — Models of coupled dark matter to dark energy, Phys. Rev. D 88, 083505.
+* Pourtsidou, A., & Tram, T. (2016) — Reconciling CMB and structure growth measurements with dark energy interactions, Phys. Rev. D 94, 043518.
+* Lesgourgues, J. (2011) — Cosmic Linear Anisotropy Solving System (CLASS) I: Overview, arXiv:1104.2932.
