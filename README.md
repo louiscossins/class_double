@@ -15,11 +15,11 @@ This codebase builds upon the [`class_IDE`](https://github.com/Alkistis/class_ID
 ### Coupling Mechanism & Interacting Physics
 
 The interaction in this model belongs to **Type 3 momentum-transfer couplings**. Unlike standard coupled dark energy models (such as Type 1 or Type 2 implementations) where energy is exchanged directly between dark matter and dark energy at the background level, pure momentum-transfer couplings behave distinctly:
+* **Background Dynamics:** There is no energy exchange between dark matter and dark energy ($Q_0 = 0$). Consequently, unpolarized background energy densities `rho_cdm` and `rho_phi` evolve independently, following standard energy conservation laws:
 
-* **Background Dynamics:** There is no energy exchange between dark matter and dark energy ($\mathcal{Q}_0 = 0$). Consequently, background energy densities $\bar{\rho}_{\mathrm{cdm}}$ and $\bar{\rho}_{\phi}$ evolve independently, following standard energy conservation laws:
-  $$
-  \dot{\bar{\rho}}_{\mathrm{cdm}} + 3 H \bar{\rho}_{\mathrm{cdm}} = 0
-  $$
+$$
+\dot{\rho}_{\text{cdm}} + 3 H \rho_{\text{cdm}} = 0
+$$
 * **Linear Perturbations:** Energy transfer vanishes at linear order, but momentum transfer occurs dynamically through gradient interactions between the scalar field $\phi$ and dark matter velocity perturbations.
 * **Coupling Function:** The coupling is constructed via a quadratic interaction function of the form $$\beta Z^2$$, where $Z$ parameterizes the dark matter four-velocity and scalar field derivative contractions. The coupling strength is set by the parameter `scf_veta`, corresponding directly to the coupling parameter $\beta$.
 
